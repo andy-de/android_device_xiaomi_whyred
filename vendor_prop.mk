@@ -228,7 +228,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.rat_on=combine \
     persist.radio.schd.cache=3500 \
-    persist.sys.mcd_config_file=/system/etc/mcd_default.conf
+    persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
     telephony.lteOnCdmaDevice=1 \
     ro.telephony.default_network=22,20 \
     ro.use_data_netmgrd=true \
@@ -237,8 +237,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
     persist.vendor.radio.snapshot_enabled=1 \
     persist.vendor.radio.snapshot_timer=5 \
-    persist.radio.sw_mbn_update=0
-    persist.radio.hw_mbn_update=0
+    persist.radio.sw_mbn_update=0 \
+    persist.radio.hw_mbn_update=0 \
     persist.radio.trigger.silence=true
 
 # Security Patch Level
@@ -266,7 +266,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # WFD
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.wfd.virtual=0
+    persist.sys.wfd.virtual=0 \
     persist.debug.wfd.enable=1
 
 # Wifi
